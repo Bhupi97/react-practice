@@ -1,5 +1,7 @@
-# Namaste react practice 🐱‍🏍
+# Food Fast Delivery App 🐱‍🏍
 
+
+# Concepts implemented and explained
 # Parcel features
 - Dev Build
 - Local Server
