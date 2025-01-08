@@ -1,0 +1,173 @@
+a {
+    color: black; /* Sets the link color to black */
+    text-decoration: none; /* Removes the underline if you want a cleaner look */
+  }
+
+div{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo-container {
+    margin: 0;
+    height: 120%;
+    background-color: red;
+}
+
+.body{
+    background-color: rgb(110, 93, 93);
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100px; 
+    height: 120%;  
+}
+
+.nav-items {
+    padding: 0 20px;
+
+}
+.nav-items > ul{
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.res-card{
+    background-color: #baaaaa;
+    width: 260px;
+    /* height: 340px; */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.res-details{
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+}
+
+.res-details h3,
+.res-details h4 {
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+/* Fine-tune spacing by adjusting margin-bottom of h3 and/or margin-top of h4 */
+.res-details h3 {
+  margin-bottom: 5px; /* Adjust as needed */
+}
+
+.res-details h4 {
+  margin-top: 0; /* Adjust as needed */
+}
+
+
+.res-card :hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+.filter-btn :hover{
+    cursor: pointer;
+}
+.search{
+    padding: 10px;
+}
+
+.res-logo{
+    border-radius: 15px 15px 10px 10px;
+    width: 260px;
+    height: 200px
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-btn{
+    /* margin: 20px; */
+    cursor: pointer;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.shimmer-card{
+    height: 360px;
+    width: 16%;
+    padding: 1%;
+    margin: 1%;
+    background-color: #b6acac;
+}
+
+.login-btn{
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+
+.filter{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 3% 20% 20%;
+    height: 70%;
+    width: 60%;
+    /* justify-content: center;
+    margin: 40px; */
+    /* text-align: center; */
+    /* width: 70%; */
+    background-color: rgb(82, 64, 64);
+    overflow: wrap;
+}
+.resName{
+    text-align: center;
+    /* background-color: black; */
+}
+
+.resMenuHeading{
+    text-align: center;
+}
+
+.resRating, .resCforTwo{
+    align-self: flex-start;
+    margin-left: 5%;
+}
+
+.resCuisines{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns elements to the right */
+    gap: 5px;
+}
+
+.userCard {
+    border: 1px solid black;
+    padding: 5px 5px 5px 20px;
+}
